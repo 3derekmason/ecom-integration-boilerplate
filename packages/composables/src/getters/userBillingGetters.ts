@@ -2,11 +2,14 @@ import { UserBillingGetters } from '@vue-storefront/core';
 import type {
   UserBillingAddress as Address,
   UserBillingAddressItem as AddressItem,
-  UserBillingAddressSearchCriteria
-} from '@vue-storefront/__replace_me__-api';
+  UserBillingAddressSearchCriteria,
+} from '@vue-storefront/ecom-api';
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
-function getAddresses(billing: Address, criteria?: UserBillingAddressSearchCriteria): AddressItem[] {
+function getAddresses(
+  billing: Address,
+  criteria?: UserBillingAddressSearchCriteria
+): AddressItem[] {
   return [];
 }
 
@@ -113,5 +116,5 @@ export const userBillingGetters: UserBillingGetters<Address, AddressItem> = {
   getTaxNumber,
   getId,
   getApartmentNumber,
-  isDefault
+  isDefault,
 };

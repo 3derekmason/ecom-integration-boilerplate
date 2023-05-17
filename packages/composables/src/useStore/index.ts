@@ -1,4 +1,4 @@
-import { Store } from '@vue-storefront/__replace_me__-api';
+import { Store } from '@vue-storefront/ecom-api';
 import { Context, useStoreFactory } from '@vue-storefront/core';
 
 export const useStore = useStoreFactory<Store>({
@@ -14,5 +14,5 @@ export const useStore = useStoreFactory<Store>({
     console.log('Mocked: useStore.change');
 
     return Promise.resolve({});
-  }
+  },
 });

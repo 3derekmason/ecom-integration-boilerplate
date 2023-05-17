@@ -5,11 +5,11 @@
 ```
 yarn global add @vue-storefront/cli
 ```
+
 ```
 vsf init <project_name> && cd <project_name> && yarn && yarn dev
 ```
 
 ## How to start if you want to contribute?
 
-Want to contribute? Ping us on `__replace_me__` channel on [our Discord](https://discord.vuestorefront.io)!
-
+Want to contribute? Ping us on `ecom` channel on [our Discord](https://discord.vuestorefront.io)!

@@ -1,11 +1,10 @@
 # Contributing
 
-Yeay! You want to contribute to @vuestorefront/__replace_me__. That's amazing! To smoothen everyone's experience involved with the project please take note of the following guidelines and rules.
-
+Yeay! You want to contribute to @vuestorefront/ecom. That's amazing! To smoothen everyone's experience involved with the project please take note of the following guidelines and rules.
 
 ## Found an Issue?
 
-Thank you for reporting any issues you find. We do our best to test and make @vuestorefront/__replace_me__ as solid as possible, but any reported issue is a real help.
+Thank you for reporting any issues you find. We do our best to test and make @vuestorefront/ecom as solid as possible, but any reported issue is a real help.
 
 Please follow these guidelines when reporting issues:
 
@@ -13,14 +12,14 @@ Please follow these guidelines when reporting issues:
 - Tag your issue with the tag `bug`
 - Provide a short summary of what you are trying to do
 - Provide the log of the encountered error if applicable
-- Provide the exact version of @vuestorefront/__replace_me__.
+- Provide the exact version of @vuestorefront/ecom.
 - Be awesome and consider contributing a [pull request](#want-to-contribute)
 
 ## Want to contribute?
 
 Please consider these guidelines when filing a pull request:
 
-> @vuestorefront/__replace_me__ pull requests
+> @vuestorefront/ecom pull requests
 
 - Follow the [Coding Rules](#coding-rules)
 - Follow the [Commit Rules](#commit-rules)
@@ -35,7 +34,7 @@ Please consider these guidelines when filing a pull request:
 
 ## Coding Rules
 
-To keep the code base of @vuestorefront/__replace_me__ neat and tidy the following rules apply to every change
+To keep the code base of @vuestorefront/ecom neat and tidy the following rules apply to every change
 
 > Coding standards
 
@@ -46,7 +45,7 @@ To keep the code base of @vuestorefront/__replace_me__ neat and tidy the followi
 ## Commit Rules
 
 To help everyone with understanding the commit history of commitlint the following commit rules are enforced.
-To make your life easier @vuestorefront/__replace_me__ is commitizen-friendly and provides the npm run-script `commit`.
+To make your life easier @vuestorefront/ecom is commitizen-friendly and provides the npm run-script `commit`.
 
 > Commit standards
 

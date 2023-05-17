@@ -8,19 +8,19 @@ import type { Product, ProductFilter } from '@vue-storefront/ecom-api';
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 function getName(product: Product): string {
-  return 'Name';
+  return product?.name || '';
 }
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 function getSlug(product: Product): string {
-  return 'slug';
+  return product?.slug || 'slug';
 }
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 function getPrice(product: Product): AgnosticPrice {
   return {
-    regular: 0,
-    special: 0,
+    regular: product?.regularPrice || 0,
+    special: product?.specialPrice || 0,
   };
 }
 
@@ -72,17 +72,17 @@ function getAttributes(
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 function getDescription(product: Product): string {
-  return '';
+  return product?.description || '';
 }
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 function getCategoryIds(product: Product): string[] {
-  return [];
+  return product?.categoryIds || [];
 }
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 function getId(product: Product): string {
-  return '1';
+  return product?.id || '1';
 }
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
@@ -92,12 +92,12 @@ function getFormattedPrice(price: number): string {
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 function getTotalReviews(product: Product): number {
-  return 0;
+  return product?.getTotalReviews || 0;
 }
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 function getAverageRating(product: Product): number {
-  return 0;
+  return product?.averageRating || 0;
 }
 
 export const productGetters: ProductGetters<Product, ProductFilter> = {
